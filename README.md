@@ -4,6 +4,9 @@ A fast multithreaded desktop forensic scanner for **DLL / EXE / APK / text-based
 
 Built with **Python + GTK3** for Linux (tested on Kali), but can run anywhere GTK3 + Python are available.
 
+<img width="1442" height="845" alt="image" src="https://github.com/user-attachments/assets/5037d253-c970-4417-a2c8-56a48b0ef2d7" />
+
+
 ---
 
 # Features
