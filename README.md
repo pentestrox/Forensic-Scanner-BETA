@@ -1,4 +1,4 @@
-# Forensic-Scanner-BETA
+# Forensic-Scanner-BETA - Self Project for Educational purpose only
 
 A fast multithreaded desktop forensic scanner for **DLL / EXE / APK / text-based files** with regex-powered secret hunting, decompilation support, severity tagging, context preview, and live progress tracking.
 
