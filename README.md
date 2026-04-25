@@ -1,4 +1,4 @@
-# Forensic-Scanner-PRO
+# Forensic-Scanner-BETA
 
 A fast multithreaded desktop forensic scanner for **DLL / EXE / APK / text-based files** with regex-powered secret hunting, decompilation support, severity tagging, context preview, and live progress tracking.
 
@@ -192,7 +192,7 @@ sudo apt install apktool
 # Install
 
 ```bash
-git clone https://github.com/pentestrox/forensic-scanner-pro.git
+git clone https://github.com/pentestrox/forensic-scanner-beta.git
 cd forensic-scanner-pro
 python3 scanner.py
 ```
