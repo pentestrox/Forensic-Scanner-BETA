@@ -1,0 +1,218 @@
+[
+  {
+    "pattern": "password\\s*[:=]\\s*['\\\"]?.{1,80}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "passwd\\s*[:=]\\s*['\\\"]?.{1,80}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "pwd\\s*[:=]\\s*['\\\"]?.{1,80}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "secret\\s*[:=]\\s*['\\\"]?.{1,120}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "private[_-]?key",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "BEGIN RSA PRIVATE KEY",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "BEGIN PRIVATE KEY",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "aws_access_key_id",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "aws_secret_access_key",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "AKIA[0-9A-Z]{16}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "AIza[0-9A-Za-z\\-_]{35}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "xox[baprs]-[0-9A-Za-z\\-]{10,}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "ghp_[0-9A-Za-z]{30,}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "github_pat_[0-9A-Za-z_]{20,}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "sk_live_[0-9A-Za-z]{16,}",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "stripe.*secret",
+    "matchInfo": "Critical"
+  },
+  {
+    "pattern": "bearer\\s+[A-Za-z0-9\\-\\._~\\+\\/]+=*",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "authorization\\s*[:=]\\s*bearer",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "api[_-]?key",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "client[_-]?secret",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "consumer[_-]?secret",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "access[_-]?token",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "refresh[_-]?token",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "jwt",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "eyJ[A-Za-z0-9_-]{10,}\\.[A-Za-z0-9_-]{10,}\\.[A-Za-z0-9_-]{10,}",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "firebase.*key",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "twilio.*token",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "sendgrid.*key",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "smtp.*password",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "jdbc:.*password",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "server=.*;database=.*;user id=.*;password=.*",
+    "matchInfo": "High"
+  },
+  {
+    "pattern": "connectionstring",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "mongodb(\\+srv)?:\\/\\/",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "postgres(ql)?:\\/\\/",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "mysql:\\/\\/",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "redis:\\/\\/",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "ftp:\\/\\/",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "sftp:\\/\\/",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "webhook",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "callback[_-]?url",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "internal[_-]?api",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "admin[_-]?panel",
+    "matchInfo": "Medium"
+  },
+  {
+    "pattern": "debug\\s*=\\s*true",
+    "matchInfo": "Low"
+  },
+  {
+    "pattern": "trace\\s*=\\s*true",
+    "matchInfo": "Low"
+  },
+  {
+    "pattern": "verbose\\s*=\\s*true",
+    "matchInfo": "Low"
+  },
+  {
+    "pattern": "test[_-]?mode",
+    "matchInfo": "Low"
+  },
+  {
+    "pattern": "sandbox",
+    "matchInfo": "Low"
+  },
+  {
+    "pattern": "staging",
+    "matchInfo": "Low"
+  },
+  {
+    "pattern": "localhost",
+    "matchInfo": "Informational"
+  },
+  {
+    "pattern": "127\\.0\\.0\\.1",
+    "matchInfo": "Informational"
+  },
+  {
+    "pattern": "TODO",
+    "matchInfo": "Informational"
+  },
+  {
+    "pattern": "FIXME",
+    "matchInfo": "Informational"
+  },
+  {
+    "pattern": "http:\\/\\/",
+    "matchInfo": "Informational"
+  },
+  {
+    "pattern": "https:\\/\\/",
+    "matchInfo": "Informational"
+  }
+]
