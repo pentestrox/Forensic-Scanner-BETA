@@ -189,7 +189,7 @@ sudo apt install apktool
 # Install
 
 ```bash
-git clone https://github.com/yourname/forensic-scanner-pro.git
+git clone https://github.com/pentestrox/forensic-scanner-pro.git
 cd forensic-scanner-pro
 python3 scanner.py
 ```
